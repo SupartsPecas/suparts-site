@@ -1,12 +1,92 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Suparts Soluções e Peças</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Quem Somos - Suparts</title>
+  <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
-    <h1>Bem-vindo à Suparts</h1>
-    <p>Em breve, o melhor site de peças para empilhadeiras!</p>
+
+  <!-- Botão flutuante do WhatsApp -->
+  <a href="https://wa.me/5521983780254" class="whatsapp-button" target="_blank">
+    <img src="images/whatsapp.png" alt="Fale conosco pelo WhatsApp">
+  </a>
+
+  <!-- Cabeçalho superior com logo e informações -->
+  <header class="top-header">
+    <div class="container">
+      <div class="logo">
+        <img src="images/imagem.jpg" alt="Logo Suparts">
+      </div>
+      <div class="info">
+        <p>
+          <strong>(21) 2796-5665</strong><br />
+          Ligue agora
+          <img src="images/telefone.png" alt="Ícone de E-mail" style="margin-top: 5px; width: 40px; height: auto;"><br>
+        </p>        
+        <p>
+          <a href="mailto:supartspecas@gmail.com">supartspecas@gmail.com</a><br>
+          Envie um E-mail
+          <img src="images/email.png" alt="Ícone de E-mail" style="margin-top: 5px; width: 40px; height: auto;"><br>
+          </p>
+        <p>
+          <p>
+            <strong>Suporte 24 Horas</strong><br>
+<a href="https://wa.me/5521983780254" target="_blank">
+  <img src="images/suporte.png" alt="Suporte 24 Horas" style="margin-top: 5px; width: 80px; height: auto;">
+</a>
+          </p>
+        </p>
+        
+      </div>
+    </div>
+  </header>
+
+  <!-- Menu de navegação -->
+  <nav class="menu">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="#">Peças</a></li>
+      <li><a href="#">Pneus</a></li>
+      <li><a href="quemsomos.html">Quem Somos</a></li>
+      <li><a href="#">Cadastro Parceiro</a></li>
+      <li><a href="#">Contato</a></li>
+      <li><a href="faleconosco.html">Fale Conosco</a></li>
+    </ul>
+  </nav>
+
+  <!-- Banner com carrossel -->
+  <div class="carousel">
+    <div class="slides fade">
+      <img src="images/banner2.png" alt="Banner 1">
+    </div>
+    <div class="slides fade">
+      <img src="images/banner3.png" alt="Banner 2">
+    </div>
+    <div class="slides fade">
+      <img src="images/banner4.png" alt="Banner 3">
+    </div>
+
+    <!-- Botões de navegação -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <!-- Bolinhas indicadoras -->
+    <div class="dots">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+  </div>
+
+  <!-- Rodapé -->
+  <footer>
+    <p>&copy; 2024 Suparts - Todos os direitos reservados</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+
+
 </body>
 </html>
